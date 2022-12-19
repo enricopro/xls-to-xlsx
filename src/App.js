@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { read, writeFile } from 'xlsx';
-import { saveAs } from 'file-saver';
+import {FaGithub} from 'react-icons/fa';
+import './App.css';
+import logo from './img/XLStoXLSX.png';
 
 const App = () => {
   const [files, setFiles] = useState([]);
@@ -45,18 +47,23 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 flex flex-col items-center">
+    <div className="container mx-auto p-4 flex flex-col items-center h-screen">
+      <a href="https://github.com/enricopro/xls-to-xlsx">
+        <FaGithub className="text-3xl" />
+      </a>
+      <img className="" src={logo} alt="logo" />
       <input
-        className="bg-gray-200 p-2 rounded-lg"
+        className="border-dashed border-2 border-indigo-600 p-4 rounded-lg"
         type="file"
         accept=".xls"
         multiple
         onChange={handleFileChange}
       />
-      {error && <p className="text-red-600">{error}</p>}
-      <button className="bg-blue-500 p-2 rounded-lg text-white" onClick={handleConvert}>
-        Convert to .xlsx
+      {error && <p className="text-red-600 my-2">{error}</p>}
+      <button className="bg-blue-500 p-4 rounded-3xl text-white mt-5 hover:scale-110 transition-all" onClick={handleConvert}>
+        Convert to .xlsx and download
       </button>
+      <p className="absolute italic bottom-5 text-center px-5">N.B. This project computes your files locally, so it does not keep trace of your data. Anyway the code is public and you can check the <a className="underline" href="https://github.com/enricopro/xls-to-xlsx">code</a>.</p>
     </div>
   );
 };
