@@ -6,7 +6,7 @@ A tool for converting .xls files to .xlsx files, built with React and Tailwind.
 
 1. Clone or download the repository
 2. Install dependencies with `npm install`
-3. Start the development server with `npm start`
+3. Start the development server with `npm run start`
 
 ## Usage
 
