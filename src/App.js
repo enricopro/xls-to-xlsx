@@ -63,7 +63,7 @@ const App = () => {
       <button className="bg-blue-500 p-4 rounded-3xl text-white mt-5 hover:scale-110 transition-all" onClick={handleConvert}>
         Convert to .xlsx and download
       </button>
-      <p className="absolute italic bottom-5 text-center px-5">N.B. This project computes your files locally, so it does not keep trace of your data. Anyway, the code is public and you can check the <a className="underline" href="https://github.com/enricopro/xls-to-xlsx">it</a>.</p>
+      <p className="absolute italic bottom-5 text-center px-5">N.B. This project computes your files locally, so it does not keep trace of your data. Anyway, the code is public and you can check <a className="underline" href="https://github.com/enricopro/xls-to-xlsx">it</a>.</p>
     </div>
   );
 };

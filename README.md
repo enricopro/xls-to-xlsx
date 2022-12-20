@@ -1,5 +1,7 @@
 # XLS to XLSX
 
+![](https://enricopro.github.io/xls-to-xlsx/static/media/XLStoXLSX.728fc1d559991a233181.png)
+
 A tool for converting .xls files to .xlsx files, built with React and Tailwind.
 
 ## Getting Started
