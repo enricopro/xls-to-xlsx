@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/xls-to-xlsx/static/css/main.0dab04fa.css",
+    "main.js": "/xls-to-xlsx/static/js/main.e89b8053.js",
+    "static/js/787.da8db48b.chunk.js": "/xls-to-xlsx/static/js/787.da8db48b.chunk.js",
+    "static/media/XLStoXLSX.png": "/xls-to-xlsx/static/media/XLStoXLSX.728fc1d559991a233181.png",
+    "index.html": "/xls-to-xlsx/index.html",
+    "main.0dab04fa.css.map": "/xls-to-xlsx/static/css/main.0dab04fa.css.map",
+    "main.e89b8053.js.map": "/xls-to-xlsx/static/js/main.e89b8053.js.map",
+    "787.da8db48b.chunk.js.map": "/xls-to-xlsx/static/js/787.da8db48b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dab04fa.css",
+    "static/js/main.e89b8053.js"
+  ]
+}
